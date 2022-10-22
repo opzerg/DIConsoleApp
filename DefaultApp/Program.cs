@@ -2,6 +2,7 @@
 
 
 using DefaultApp;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
@@ -10,6 +11,8 @@ await Host.CreateDefaultBuilder()
     {
         // 실행순서
         Console.WriteLine("first");
+        // 실행 인자 값 set
+        configure.AddCommandLine(args);
     })
     .ConfigureAppConfiguration((context, configure) =>
     {
