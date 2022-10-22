@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DefaultApp", "DefaultApp\De
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SettingsApp", "SettingsApp\SettingsApp.csproj", "{CB5968B8-ED93-49AD-B6E8-72F529388A93}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChannelApp", "ChannelApp\ChannelApp.csproj", "{EF754826-D5C1-43C6-877A-5F2D58D3F468}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{CB5968B8-ED93-49AD-B6E8-72F529388A93}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CB5968B8-ED93-49AD-B6E8-72F529388A93}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CB5968B8-ED93-49AD-B6E8-72F529388A93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF754826-D5C1-43C6-877A-5F2D58D3F468}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF754826-D5C1-43C6-877A-5F2D58D3F468}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF754826-D5C1-43C6-877A-5F2D58D3F468}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF754826-D5C1-43C6-877A-5F2D58D3F468}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
